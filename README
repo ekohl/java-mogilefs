@@ -1,6 +1,17 @@
 Java client library for MogileFS (http://www.danga.com/mogilefs/). Code
 is mostly a copy of the perl client.
 
+This is a fork of eml's MogileFS Java client with fixes pulled from ash2k and 
+davidheldon's tree. 
+
+This branch has the following improvements:
+
+- list_keys MogileFS support.
+- Java Generics.
+- SLF4J Logging, no hard dependency on Log4J.
+- JUnit testing. 
+- Merged bug fixes from ash2k and davidheldon's forks. 
+
 Choose one of the classes in com.guba.mogilefs that implements
 the MogileFS interface:
 
@@ -15,5 +26,5 @@ LocalFileMogileFSImpl - this implementation doesn't actually talk
 	locally. Its useful it you want to test something locally
 	or have a fake local mogile store.
 
-Please send bug reports to Eric Lambrecht <eml@ill.com>.
+Please send bug reports to Victor Igumnov <victori@fabulously40.com>.
 
