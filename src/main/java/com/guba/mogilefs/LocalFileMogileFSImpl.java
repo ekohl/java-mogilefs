@@ -196,12 +196,12 @@ public class LocalFileMogileFSImpl implements MogileFS {
 		return domain;
 	}
 
-	@Override
+	//@Override Java 1.6
 	public void setMaxRetries(final int maxRetries) {
 		throw new UnsupportedOperationException();
 	}
 
-	@Override
+	//@Override Java 1.6
 	public void setRetryTimeout(final int retrySleepTime) {
 		throw new UnsupportedOperationException();
 	}
